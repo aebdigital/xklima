@@ -67,7 +67,6 @@ export function Header() {
               className="focus-ring flex h-11 items-center gap-2 rounded-md border border-line px-3 text-sm font-semibold text-ink transition hover:border-hvac-green hover:bg-frost"
             >
               <Phone size={17} aria-hidden="true" />
-              <span className="hidden whitespace-nowrap 2xl:inline">Zavolajte nám</span>
               <span className="whitespace-nowrap text-hvac-blue">{phone}</span>
             </a>
             <Link

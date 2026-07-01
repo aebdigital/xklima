@@ -49,11 +49,10 @@ export const email = "info@xklima.sk";
 export const navItems = [
   { label: "Klimatizácie", href: "/products" },
   { label: "Referencie", href: "/references" },
-  { label: "Kontakt", href: "/contact" },
   { label: "Kariéra", href: "/career" },
   { label: "Montáž/servis", href: "/montaz-servis" },
   { label: "Na stiahnutie", href: "/downloads" },
-  { label: "Kalkulačka", href: "/calculator" }
+  { label: "Kontakt", href: "/contact" }
 ];
 
 export const services = [
