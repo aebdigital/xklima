@@ -52,6 +52,7 @@ export const navItems = [
   { label: "Kariéra", href: "/career" },
   { label: "Montáž/servis", href: "/montaz-servis" },
   { label: "Na stiahnutie", href: "/downloads" },
+  { label: "Kalkulačka", href: "/calculator" },
   { label: "Kontakt", href: "/contact" }
 ];
 

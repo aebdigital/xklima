@@ -96,8 +96,21 @@ export function InquiryForm({
             <input required type="email" className={inputClass} placeholder="vas@email.sk" />
           </label>
           <label className={labelClass}>
-            Predmet
-            <input className={inputClass} placeholder="Napr. montáž klimatizácie" />
+            Lokalita
+            <input className={inputClass} placeholder="Košice a okolie" />
+          </label>
+        </div>
+      ) : null}
+
+      {isContact ? (
+        <div className="grid gap-3 sm:grid-cols-2">
+          <label className={labelClass}>
+            Počet miestností
+            <input type="number" min="1" className={inputClass} placeholder="Napr. 3" />
+          </label>
+          <label className={labelClass}>
+            Celková plocha m2
+            <input type="number" min="1" className={inputClass} placeholder="Napr. 65" />
           </label>
         </div>
       ) : null}

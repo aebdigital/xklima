@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { Calculator, Menu, Phone, Search, Snowflake, X } from "lucide-react";
+import { Menu, Phone, Search, Snowflake, X } from "lucide-react";
 import { cleanPhone, navItems, phone, searchEntries } from "@/lib/data";
 
 export function Header() {
@@ -70,10 +70,9 @@ export function Header() {
               <span className="whitespace-nowrap text-hvac-blue">{phone}</span>
             </a>
             <Link
-              href="/calculator"
-              className="focus-ring flex h-11 items-center gap-2 rounded-md bg-hvac-blue px-4 text-sm font-bold text-white transition hover:bg-hvac-navy"
+              href="/contact"
+              className="focus-ring flex h-11 items-center rounded-md bg-hvac-blue px-4 text-sm font-bold text-white transition hover:bg-hvac-navy"
             >
-              <Calculator size={17} aria-hidden="true" />
               <span className="hidden whitespace-nowrap 2xl:inline">Cenová ponuka</span>
               <span className="whitespace-nowrap 2xl:hidden">Ponuka</span>
             </Link>
@@ -122,11 +121,10 @@ export function Header() {
                 {phone}
               </a>
               <Link
-                href="/calculator"
+                href="/contact"
                 onClick={closeAll}
-                className="focus-ring flex items-center justify-center gap-2 rounded-md bg-hvac-blue px-4 py-3 font-bold text-white"
+                className="focus-ring flex items-center justify-center rounded-md bg-hvac-blue px-4 py-3 font-bold text-white"
               >
-                <Calculator size={18} aria-hidden="true" />
                 Cenová ponuka
               </Link>
             </nav>
