@@ -20,7 +20,6 @@ export default function CareerPage() {
   return (
     <section className="container-x section-y">
       <div className="mb-10 max-w-3xl">
-        <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Kariéra</p>
         <h1 className="text-4xl font-black text-ink md:text-6xl">Pridajte sa k montážnemu tímu</h1>
         <p className="mt-5 text-lg leading-8 text-graphite">
           Hľadáme ľudí, ktorí rozumejú technike, férovej práci u zákazníka a chcú rásť v oblasti klimatizácií a servisu.

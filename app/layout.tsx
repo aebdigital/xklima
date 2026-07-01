@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="sk">
       <body>
         <Header />
-        <main>{children}</main>
+        <main className="page-shell">{children}</main>
         <Footer />
       </body>
     </html>

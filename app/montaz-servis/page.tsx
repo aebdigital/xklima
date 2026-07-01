@@ -17,7 +17,6 @@ export default function InstallationServicePage() {
       <section className="bg-white py-16">
         <div className="container-x grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Montáž/servis</p>
             <h1 className="text-4xl font-black text-ink md:text-6xl">Montáž, revízie a servis klimatizácií</h1>
             <p className="mt-5 text-lg leading-8 text-graphite">
               Zabezpečíme návrh výkonu, čistú montáž, uvedenie do prevádzky aj pravidelný servis počas životnosti zariadenia.

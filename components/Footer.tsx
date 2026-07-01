@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footerColumns, quickActions, phone, cleanPhone, email } from "@/lib/data";
+import { footerColumns, quickActions } from "@/lib/data";
 
 export function Footer() {
   return (
@@ -54,14 +54,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 grid gap-4 border-t border-white/10 pt-6 text-sm text-white/70 md:grid-cols-3">
-          <a href={`tel:${cleanPhone}`} className="hover:text-white">
-            {phone}
-          </a>
-          <a href={`mailto:${email}`} className="hover:text-white">
-            {email}
-          </a>
-          <p className="md:text-right">© 2026 X-Klima Slovakia s.r.o.</p>
+        <div className="mt-12 border-t border-white/10 pt-6 text-sm text-white/70">
+          <p>© 2026 X-Klima Slovakia s.r.o.</p>
         </div>
       </div>
     </footer>

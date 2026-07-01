@@ -5,7 +5,6 @@ export default function DownloadsPage() {
   return (
     <section className="container-x section-y">
       <div className="mb-10 max-w-3xl">
-        <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Na stiahnutie</p>
         <h1 className="text-4xl font-black text-ink md:text-6xl">PDF dokumenty pre klimatizácie a servis</h1>
         <p className="mt-5 text-lg leading-8 text-graphite">
           Technické podklady, servisné dokumenty a formuláre, ktoré sa vám môžu hodiť pri výbere alebo údržbe zariadenia.

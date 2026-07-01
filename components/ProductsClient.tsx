@@ -56,8 +56,7 @@ export function ProductsClient({ initialCategory = "" }: ProductsClientProps) {
     <div className="container-x section-y">
       <div className="mb-8 grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Katalóg produktov</p>
-          <h1 className="max-w-3xl text-4xl font-bold text-ink md:text-5xl">Klimatizácie a HVAC produkty na dopyt</h1>
+          <h1 className="max-w-3xl text-4xl font-black text-ink md:text-6xl">Klimatizácie</h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-graphite">
             Porovnajte modely podľa výkonu, značky a odporúčanej plochy. Vybraný variant odošlite ako nezáväzný dopyt.
           </p>

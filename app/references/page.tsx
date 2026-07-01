@@ -7,10 +7,9 @@ export default function ReferencesPage() {
   return (
     <>
       <section className="bg-white py-16">
-        <div className="container-x max-w-4xl">
-          <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Referencie</p>
+        <div className="container-x">
           <h1 className="text-4xl font-black text-ink md:text-6xl">Realizácie X-Klima Slovakia</h1>
-          <p className="mt-5 text-lg leading-8 text-graphite">
+          <p className="mt-5 max-w-3xl text-lg leading-8 text-graphite">
             Vybrané projekty z oblasti klimatizácie, chladenia a technických riešení pre firmy, prevádzky aj ubytovacie zariadenia.
           </p>
         </div>

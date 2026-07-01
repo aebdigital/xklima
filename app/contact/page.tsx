@@ -7,7 +7,6 @@ export default function ContactPage() {
     <section className="container-x section-y">
       <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
-          <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Kontakt</p>
           <h1 className="text-4xl font-black text-ink md:text-6xl">Ozvite sa X-Klima</h1>
           <p className="mt-5 text-lg leading-8 text-graphite">
             Pre návrh klimatizácie, servis, referenčný projekt alebo kariéru. Najrýchlejšia cesta je telefón.
@@ -32,7 +31,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <InquiryForm productName="Všeobecný dopyt X-Klima" />
+        <InquiryForm variant="contact" />
       </div>
     </section>
   );

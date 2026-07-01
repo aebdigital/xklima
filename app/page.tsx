@@ -59,8 +59,8 @@ export default function HomePage() {
             ["Komplet", "návrh, montáž aj servis"]
           ].map(([value, label]) => (
             <div key={value} className="rounded-lg border border-line bg-white px-5 py-4">
-              <p className="text-2xl font-black text-hvac-blue">{value}</p>
-              <p className="mt-1 text-sm font-semibold text-graphite">{label}</p>
+              <p className="text-2xl font-semibold text-hvac-blue">{value}</p>
+              <p className="mt-1 text-sm font-medium text-graphite">{label}</p>
             </div>
           ))}
         </div>
@@ -68,7 +68,6 @@ export default function HomePage() {
 
       <section className="container-x section-y">
         <div className="mb-9 max-w-3xl">
-          <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Služby</p>
           <h2 className="text-4xl font-bold text-ink md:text-5xl">Kompletné riešenia pre komfortnú klímu a spoľahlivé chladenie</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
@@ -99,7 +98,6 @@ export default function HomePage() {
       <section className="bg-white py-16">
         <div className="container-x grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
-            <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Proces</p>
             <h2 className="text-4xl font-bold text-ink md:text-5xl">Od m2 a výkonu k reálnemu návrhu montáže</h2>
             <p className="mt-5 text-lg leading-8 text-graphite">
               Každý priestor má iné tepelné zisky, trasovanie aj prevádzku. Preto kombinujeme výber vhodného výkonu
@@ -123,7 +121,6 @@ export default function HomePage() {
       <section className="container-x section-y">
         <div className="mb-9 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Produkty</p>
             <h2 className="text-4xl font-bold text-ink md:text-5xl">Vyberte klimatizáciu podľa výkonu, značky a priestoru</h2>
           </div>
           <Link href="/products" className="focus-ring inline-flex items-center gap-2 rounded-md border border-line px-4 py-3 font-bold text-ink hover:bg-white">
@@ -164,7 +161,6 @@ export default function HomePage() {
       <section className="bg-hvac-navy py-16 text-white">
         <div className="container-x grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
-            <p className="mb-3 text-sm font-bold uppercase text-hvac-lime">Referencie</p>
             <h2 className="text-4xl font-bold md:text-5xl">Realizácie pre priemysel, kancelárie, gastro aj domácnosti</h2>
             <p className="mt-5 text-lg leading-8 text-white/75">
               Pozrite si vybrané projekty, pri ktorých sme riešili komfortné chladenie, technológiu aj následný servis.
@@ -209,7 +205,6 @@ export default function HomePage() {
       <section className="bg-white py-16">
         <div className="container-x flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Cenová ponuka</p>
             <h2 className="text-4xl font-bold text-ink">Zistite vhodný výkon a pošlite nám dopyt</h2>
             <p className="mt-3 max-w-2xl text-base leading-7 text-graphite">
               Orientačný výpočet vám pomôže vybrať smer. Finálnu zostavu a montáž overíme podľa priestoru a požiadaviek.

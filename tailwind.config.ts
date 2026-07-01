@@ -25,6 +25,10 @@ const config: Config = {
       },
       boxShadow: {
         soft: "0 16px 42px rgba(16, 32, 51, 0.10)"
+      },
+      fontFamily: {
+        sans: ["var(--font-body)"],
+        display: ["var(--font-display)"]
       }
     }
   },
