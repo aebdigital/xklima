@@ -21,7 +21,7 @@ export default function InstallationServicePage() {
             <p className="mt-5 text-lg leading-8 text-graphite">
               Zabezpečíme návrh výkonu, čistú montáž, uvedenie do prevádzky aj pravidelný servis počas životnosti zariadenia.
             </p>
-            <Link href="/calculator#quote-form" className="focus-ring mt-7 inline-flex items-center gap-2 rounded-md bg-hvac-blue px-5 py-3 font-bold text-white">
+            <Link href="/calculator" className="focus-ring mt-7 inline-flex items-center gap-2 rounded-md bg-hvac-blue px-5 py-3 font-bold text-white">
               Požiadať o termín
               <ArrowRight size={17} aria-hidden="true" />
             </Link>

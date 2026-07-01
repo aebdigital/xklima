@@ -29,10 +29,9 @@ export function CalculatorClient() {
   return (
     <div className="container-x section-y">
       <div className="mb-10 max-w-3xl">
-        <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Kalkulačka</p>
-        <h1 className="text-4xl font-black text-ink md:text-6xl">Orientačný výkon klimatizácie</h1>
+        <h1 className="text-4xl font-black text-ink md:text-6xl">Cenová ponuka na klimatizáciu</h1>
         <p className="mt-5 text-lg leading-8 text-graphite">
-          Zadajte základné parametre miestnosti a získajte odporúčaný výkon pre prvý návrh klimatizácie.
+          Zadajte základné parametre miestnosti a pošlite nám podklady pre návrh vhodného riešenia a montáže.
         </p>
       </div>
 

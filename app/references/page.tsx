@@ -39,7 +39,7 @@ export default function ReferencesPage() {
             <p className="mb-2 text-sm font-bold uppercase text-hvac-lime">Máte podobný projekt?</p>
             <h2 className="text-3xl font-bold">Pošlite nám dopyt a navrhneme výkon aj montáž.</h2>
           </div>
-          <Link href="/calculator#quote-form" className="focus-ring inline-flex items-center gap-2 rounded-md bg-white px-5 py-3 font-bold text-hvac-navy">
+          <Link href="/calculator" className="focus-ring inline-flex items-center gap-2 rounded-md bg-white px-5 py-3 font-bold text-hvac-navy">
             Cenová ponuka
             <ArrowRight size={17} aria-hidden="true" />
           </Link>

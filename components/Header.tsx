@@ -70,7 +70,7 @@ export function Header() {
               <span className="whitespace-nowrap text-hvac-blue">{phone}</span>
             </a>
             <Link
-              href="/calculator#quote-form"
+              href="/calculator"
               className="focus-ring flex h-11 items-center gap-2 rounded-md bg-hvac-blue px-4 text-sm font-bold text-white transition hover:bg-hvac-navy"
             >
               <Calculator size={17} aria-hidden="true" />
@@ -122,7 +122,7 @@ export function Header() {
                 {phone}
               </a>
               <Link
-                href="/calculator#quote-form"
+                href="/calculator"
                 onClick={closeAll}
                 className="focus-ring flex items-center justify-center gap-2 rounded-md bg-hvac-blue px-4 py-3 font-bold text-white"
               >

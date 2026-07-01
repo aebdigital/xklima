@@ -74,7 +74,7 @@ export function ProductConfigurator({ product }: ProductConfiguratorProps) {
               className="focus-ring mt-5 inline-flex w-full items-center justify-center gap-2 rounded-md bg-hvac-blue px-4 py-3 font-bold text-white transition hover:bg-hvac-navy"
             >
               <Send size={17} aria-hidden="true" />
-              Dopytať tento variant
+              Odoslať dopyt
             </button>
           </div>
         </div>

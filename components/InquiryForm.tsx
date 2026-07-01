@@ -21,7 +21,7 @@ export function InquiryForm({
   const [sent, setSent] = useState(false);
   const isContact = variant === "contact";
   const showProductField = Boolean(selectedVariant);
-  const labelClass = `grid ${isContact ? "gap-1.5" : "gap-2"} text-sm font-semibold text-graphite`;
+  const labelClass = `grid ${isContact ? "gap-1" : "gap-2"} text-sm font-semibold text-graphite`;
   const inputClass = `focus-ring ${
     isContact ? "h-10" : "h-11"
   } rounded-md border border-line bg-white px-3 text-ink`;
@@ -67,13 +67,6 @@ export function InquiryForm({
         </h2>
       </div>
 
-      {selectedVariant ? (
-        <div className="rounded-md border border-hvac-aqua/40 bg-mist p-4">
-          <p className="text-xs font-bold uppercase text-hvac-green">Vybraný variant</p>
-          <p className="mt-1 text-lg font-bold text-ink">{selectedVariant}</p>
-        </div>
-      ) : null}
-
       {showProductField ? (
         <label className={labelClass}>
           Produkt
@@ -87,14 +80,27 @@ export function InquiryForm({
 
       <div className={`grid ${isContact ? "gap-3" : "gap-4"} sm:grid-cols-2`}>
         <label className={labelClass}>
-          Meno
-          <input required className={inputClass} placeholder="Vaše meno" />
+          Meno a priezvisko
+          <input required className={inputClass} placeholder="Vaše meno a priezvisko" />
         </label>
         <label className={labelClass}>
           Telefón
           <input required className={inputClass} placeholder="+421..." />
         </label>
       </div>
+
+      {isContact ? (
+        <div className="grid gap-3 sm:grid-cols-2">
+          <label className={labelClass}>
+            E-mail
+            <input required type="email" className={inputClass} placeholder="vas@email.sk" />
+          </label>
+          <label className={labelClass}>
+            Predmet
+            <input className={inputClass} placeholder="Napr. montáž klimatizácie" />
+          </label>
+        </div>
+      ) : null}
 
       <label className={labelClass}>
         {isContact ? "Správa" : "Priestor / poznámka"}
@@ -112,7 +118,7 @@ export function InquiryForm({
       <button
         type="submit"
         className={`focus-ring inline-flex items-center justify-center gap-2 rounded-md bg-hvac-blue font-bold text-white transition hover:bg-hvac-navy ${
-          isContact ? "justify-self-start px-4 py-2.5 text-sm" : "px-5 py-3"
+          isContact ? "h-10 w-full px-4 text-sm" : "px-5 py-3"
         }`}
       >
         <Send size={17} aria-hidden="true" />

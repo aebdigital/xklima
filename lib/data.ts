@@ -343,7 +343,7 @@ export const searchEntries = [
   ...navItems.map((item) => ({ title: item.label, href: item.href, type: "Stránka" })),
   ...products.map((product) => ({ title: product.name, href: `/products/${product.slug}`, type: product.category })),
   ...downloads.map((item) => ({ title: item.title, href: "/downloads", type: "Na stiahnutie" })),
-  { title: "Cenová ponuka", href: "/calculator#quote-form", type: "Formulár" },
+  { title: "Cenová ponuka", href: "/calculator", type: "Formulár" },
   { title: "Zavolajte nám", href: `tel:${cleanPhone}`, type: "Kontakt" }
 ];
 
@@ -371,7 +371,7 @@ export const footerColumns = [
     links: [
       { label: "Kontakt", href: "/contact" },
       { label: "Kariéra", href: "/career" },
-      { label: "Cenová ponuka", href: "/calculator#quote-form" }
+      { label: "Cenová ponuka", href: "/calculator" }
     ]
   }
 ];
@@ -380,7 +380,7 @@ export const quickActions = [
   { label: "Zavolať", href: `tel:${cleanPhone}`, icon: Phone },
   { label: "Napísať", href: `mailto:${email}`, icon: Mail },
   { label: "Adresa", href: "/contact", icon: MapPin },
-  { label: "Ponuka", href: "/calculator#quote-form", icon: Calculator }
+  { label: "Ponuka", href: "/calculator", icon: Calculator }
 ];
 
 export const pageLinks = [
