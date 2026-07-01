@@ -20,7 +20,7 @@ export default function InstallationServicePage() {
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Montáž/servis</p>
             <h1 className="text-4xl font-black text-ink md:text-6xl">Montáž, revízie a servis klimatizácií</h1>
             <p className="mt-5 text-lg leading-8 text-graphite">
-              Stránka je postavená pre opakované servisné workflow: rýchly kontakt, jasný rozsah a prepojenie na PDF protokoly.
+              Zabezpečíme návrh výkonu, čistú montáž, uvedenie do prevádzky aj pravidelný servis počas životnosti zariadenia.
             </p>
             <Link href="/calculator#quote-form" className="focus-ring mt-7 inline-flex items-center gap-2 rounded-md bg-hvac-blue px-5 py-3 font-bold text-white">
               Požiadať o termín

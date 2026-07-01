@@ -17,9 +17,9 @@ export function InquiryForm({ productName = "Nešpecifikovaný produkt", compact
     return (
       <div className="rounded-lg border border-hvac-aqua bg-white p-6">
         <CheckCircle2 className="mb-3 text-hvac-aqua" size={28} aria-hidden="true" />
-        <h3 className="text-xl font-bold text-ink">Dopyt je pripravený</h3>
+        <h3 className="text-xl font-bold text-ink">Ďakujeme za dopyt</h3>
         <p className="mt-2 text-sm leading-6 text-graphite">
-          Toto je front-end prototyp. Pri napojení CMS/backendu sa formulár odošle do CRM alebo e-mailu X-Klima.
+          Ozveme sa vám s návrhom vhodného riešenia, dostupnosťou zariadenia a ďalším postupom.
         </p>
       </div>
     );

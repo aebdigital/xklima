@@ -32,7 +32,7 @@ export function CalculatorClient() {
         <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Kalkulačka</p>
         <h1 className="text-4xl font-black text-ink md:text-6xl">Orientačný výkon klimatizácie</h1>
         <p className="mt-5 text-lg leading-8 text-graphite">
-          Inšpirované konfigurátorom, ale pripravené pre neskoršie doplnenie finálnych vzorcov a cien.
+          Zadajte základné parametre miestnosti a získajte odporúčaný výkon pre prvý návrh klimatizácie.
         </p>
       </div>
 
@@ -132,7 +132,7 @@ export function CalculatorClient() {
             </div>
             <div className="mt-5 flex gap-3 rounded-md bg-mist p-4 text-sm leading-6 text-graphite">
               <CheckCircle2 className="mt-1 shrink-0 text-hvac-aqua" size={18} aria-hidden="true" />
-              <p>Pre finálnu ponuku sa doplní značka, trasa montáže, kondenz a umiestnenie vonkajšej jednotky.</p>
+              <p>Pri ponuke overíme značku, trasu montáže, odvod kondenzu aj umiestnenie vonkajšej jednotky.</p>
             </div>
           </div>
         </aside>

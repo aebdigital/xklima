@@ -299,7 +299,7 @@ export const references = [
 
 export const downloads = [
   {
-    title: "Klimatizácie X-Klima - orientačný technický list",
+    title: "Technický prehľad klimatizácií X-Klima",
     type: "PDF",
     category: "Klimatizácie",
     size: "0.1 MB",
@@ -332,7 +332,7 @@ export const processSteps = [
   },
   {
     title: "Dopytová ponuka",
-    text: "Klient dostane prehľadný návrh bez e-shop košíka. Rieši sa formulárom alebo telefonicky."
+    text: "Dostanete prehľadný návrh zariadenia, montáže a ďalšieho postupu."
   },
   {
     title: "Montáž a servis",
@@ -344,7 +344,6 @@ export const searchEntries = [
   ...navItems.map((item) => ({ title: item.label, href: item.href, type: "Stránka" })),
   ...products.map((product) => ({ title: product.name, href: `/products/${product.slug}`, type: product.category })),
   ...downloads.map((item) => ({ title: item.title, href: "/downloads", type: "Na stiahnutie" })),
-  { title: "CMS vodoznak fotiek", href: "/cms/media", type: "CMS" },
   { title: "Cenová ponuka", href: "/calculator#quote-form", type: "Formulár" },
   { title: "Zavolajte nám", href: `tel:${cleanPhone}`, type: "Kontakt" }
 ];
@@ -373,7 +372,7 @@ export const footerColumns = [
     links: [
       { label: "Kontakt", href: "/contact" },
       { label: "Kariéra", href: "/career" },
-      { label: "CMS media demo", href: "/cms/media" }
+      { label: "Cenová ponuka", href: "/calculator#quote-form" }
     ]
   }
 ];
@@ -389,7 +388,7 @@ export const pageLinks = [
   { title: "Domácnosti", text: "Byty, rodinné domy a rekreačné objekty.", icon: Home, href: "/products" },
   { title: "Firmy", text: "Kancelárie, sklady, gastro, výroba a servisné SLA.", icon: BriefcaseBusiness, href: "/references" },
   { title: "Servis", text: "Čistenie, revízie, diagnostika a havarijné výjazdy.", icon: LifeBuoy, href: "/montaz-servis" },
-  { title: "Dokumenty", text: "Technické listy a PDF podklady spravované cez CMS.", icon: FileText, href: "/downloads" },
+  { title: "Dokumenty", text: "Technické listy, servisné protokoly a podklady k dopytu.", icon: FileText, href: "/downloads" },
   { title: "Montáž", text: "Návrh trás, inštalácia a uvedenie do prevádzky.", icon: Wrench, href: "/montaz-servis" },
   { title: "PDF", text: "Materiály na stiahnutie pre klímy a servis.", icon: Download, href: "/downloads" }
 ];

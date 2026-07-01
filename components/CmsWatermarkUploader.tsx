@@ -82,9 +82,9 @@ export function CmsWatermarkUploader() {
     <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
       <div className="rounded-lg border border-line bg-white p-5 shadow-sm">
         <FileUp className="mb-4 text-hvac-blue" size={28} aria-hidden="true" />
-        <h2 className="text-2xl font-bold text-ink">Upload fotografie</h2>
+        <h2 className="text-2xl font-bold text-ink">Fotografia s vodoznakom</h2>
         <p className="mt-2 text-sm leading-6 text-graphite">
-          Po výbere obrázka sa automaticky vykreslí vodoznak X-Klima. Rovnaký krok sa dá presunúť do CMS upload pipeline.
+          Vyberte fotografiu a vytvorte webovú verziu s jemným vodoznakom X-Klima Slovakia.
         </p>
         <label className="focus-ring mt-5 flex cursor-pointer items-center justify-center gap-2 rounded-md border border-dashed border-hvac-aqua bg-mist px-4 py-6 text-center font-bold text-hvac-blue">
           <ImageIcon size={20} aria-hidden="true" />
@@ -103,9 +103,9 @@ export function CmsWatermarkUploader() {
         </button>
 
         <div className="mt-5 rounded-md bg-frost p-4">
-          <p className="text-sm font-bold text-ink">CMS pravidlo</p>
+          <p className="text-sm font-bold text-ink">Odporúčanie pre web</p>
           <p className="mt-1 text-sm leading-6 text-graphite">
-            Pri ostrom CMS by sa vodoznak pridal po nahratí originálu a uložili by sa verzie: originál, web náhľad, watermarked.
+            Originál fotografie si ponechajte v archíve a na web používajte exportovanú verziu s vodoznakom.
           </p>
         </div>
       </div>

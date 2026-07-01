@@ -10,7 +10,7 @@ const roles = [
   },
   {
     title: "Servisný technik",
-    type: "full-time / živnosť",
+    type: "plný úväzok / živnosť",
     text: "Diagnostika, čistenie, revízie a komunikácia so zákazníkom po odovzdaní.",
     icon: BriefcaseBusiness
   }
@@ -23,7 +23,7 @@ export default function CareerPage() {
         <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Kariéra</p>
         <h1 className="text-4xl font-black text-ink md:text-6xl">Pridajte sa k montážnemu tímu</h1>
         <p className="mt-5 text-lg leading-8 text-graphite">
-          Podstránka je pripravená pre budúce CMS pozície. Aktuálne ukazuje štruktúru pracovných ponúk a jednoduchý kontakt.
+          Hľadáme ľudí, ktorí rozumejú technike, férovej práci u zákazníka a chcú rásť v oblasti klimatizácií a servisu.
         </p>
       </div>
 

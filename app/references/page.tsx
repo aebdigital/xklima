@@ -11,7 +11,7 @@ export default function ReferencesPage() {
           <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Referencie</p>
           <h1 className="text-4xl font-black text-ink md:text-6xl">Realizácie X-Klima Slovakia</h1>
           <p className="mt-5 text-lg leading-8 text-graphite">
-            Fotky a názvy vychádzajú z pôvodného návrhu. Layout je svetlejší a vhodnejší pre katalógové aj servisné workflow.
+            Vybrané projekty z oblasti klimatizácie, chladenia a technických riešení pre firmy, prevádzky aj ubytovacie zariadenia.
           </p>
         </div>
       </section>

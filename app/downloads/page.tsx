@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Download, FileText, PlusCircle } from "lucide-react";
 import { downloads } from "@/lib/data";
 
@@ -9,7 +8,7 @@ export default function DownloadsPage() {
         <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Na stiahnutie</p>
         <h1 className="text-4xl font-black text-ink md:text-6xl">PDF dokumenty pre klimatizácie a servis</h1>
         <p className="mt-5 text-lg leading-8 text-graphite">
-          Podstránka je pripravená pre CMS. Nové PDF pre klímy, servisné protokoly alebo technické listy sa budú zobrazovať v tomto zozname.
+          Technické podklady, servisné dokumenty a formuláre, ktoré sa vám môžu hodiť pri výbere alebo údržbe zariadenia.
         </p>
       </div>
 
@@ -44,13 +43,13 @@ export default function DownloadsPage() {
 
       <div className="mt-8 rounded-lg border border-dashed border-line bg-white p-6">
         <PlusCircle className="mb-3 text-hvac-aqua" size={26} aria-hidden="true" />
-        <h2 className="text-2xl font-bold text-ink">CMS poznámka</h2>
+        <h2 className="text-2xl font-bold text-ink">Potrebujete ďalší dokument?</h2>
         <p className="mt-2 max-w-2xl text-sm leading-6 text-graphite">
-          V administrácii bude stačiť pridať názov, kategóriu, PDF súbor a poradie. Front-end s tým už počíta.
+          Ak hľadáte konkrétny technický list alebo servisný podklad, napíšte nám a pošleme vám správny materiál.
         </p>
-        <Link href="/cms/media" className="focus-ring mt-4 inline-flex rounded-md border border-line px-4 py-3 font-bold text-ink hover:bg-mist">
-          Pozrieť CMS media demo
-        </Link>
+        <a href="mailto:info@xklima.sk" className="focus-ring mt-4 inline-flex rounded-md border border-line px-4 py-3 font-bold text-ink hover:bg-mist">
+          Vyžiadať dokument
+        </a>
       </div>
     </section>
   );

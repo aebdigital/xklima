@@ -27,8 +27,8 @@ export default function HomePage() {
             </p>
             <h1 className="text-5xl font-black leading-[1.05] text-ink md:text-7xl">X-Klima Slovakia</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-graphite md:text-xl">
-              Svetlejší, technickejší web postavený na pôvodnom vizuálnom návrhu: reálne referencie, dopytové produkty,
-              porovnávač, vyhľadávanie, downloads a kalkulačka pripravená na doplnenie cien.
+              Navrhujeme, dodávame a servisujeme klimatizácie, chladenie, vzduchotechniku a tepelné čerpadlá pre domácnosti,
+              firmy aj technologické prevádzky na východnom Slovensku.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -56,7 +56,7 @@ export default function HomePage() {
             ["20+ rokov", "praktické skúsenosti s HVAC"],
             ["Košice", "zázemie pre východné Slovensko"],
             ["24 h", "priorita pri servisnom dopyte"],
-            ["CMS ready", "produkty, PDF a fotografie"]
+            ["Komplet", "návrh, montáž aj servis"]
           ].map(([value, label]) => (
             <div key={value} className="rounded-lg border border-line bg-white px-5 py-4">
               <p className="text-2xl font-black text-hvac-blue">{value}</p>
@@ -69,7 +69,7 @@ export default function HomePage() {
       <section className="container-x section-y">
         <div className="mb-9 max-w-3xl">
           <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Služby</p>
-          <h2 className="text-4xl font-bold text-ink md:text-5xl">Návrh z pôvodného webu, ale v čistejšom HVAC systéme</h2>
+          <h2 className="text-4xl font-bold text-ink md:text-5xl">Kompletné riešenia pre komfortnú klímu a spoľahlivé chladenie</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {services.map((service) => {
@@ -102,8 +102,8 @@ export default function HomePage() {
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Proces</p>
             <h2 className="text-4xl font-bold text-ink md:text-5xl">Od m2 a výkonu k reálnemu návrhu montáže</h2>
             <p className="mt-5 text-lg leading-8 text-graphite">
-              Katalóg pomáha vybrať smer, ale finálny výkon sa rieši dopytom. Presne tak, aby stránka nepôsobila ako e-shop,
-              ale ako predajný nástroj pre obhliadku a ponuku.
+              Každý priestor má iné tepelné zisky, trasovanie aj prevádzku. Preto kombinujeme výber vhodného výkonu
+              s obhliadkou a jasnou cenovou ponukou.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -124,7 +124,7 @@ export default function HomePage() {
         <div className="mb-9 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Produkty</p>
-            <h2 className="text-4xl font-bold text-ink md:text-5xl">Klímy s tagmi, filtrami a porovnávaním</h2>
+            <h2 className="text-4xl font-bold text-ink md:text-5xl">Vyberte klimatizáciu podľa výkonu, značky a priestoru</h2>
           </div>
           <Link href="/products" className="focus-ring inline-flex items-center gap-2 rounded-md border border-line px-4 py-3 font-bold text-ink hover:bg-white">
             Celý katalóg
@@ -165,10 +165,9 @@ export default function HomePage() {
         <div className="container-x grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-hvac-lime">Referencie</p>
-            <h2 className="text-4xl font-bold md:text-5xl">Reálne realizácie ostávajú silným vizuálnym jadrom</h2>
+            <h2 className="text-4xl font-bold md:text-5xl">Realizácie pre priemysel, kancelárie, gastro aj domácnosti</h2>
             <p className="mt-5 text-lg leading-8 text-white/75">
-              Pôvodný návrh mal dobrý základ v referenčných fotografiách. Tu ich používame svetlejšie, skenovateľnejšie
-              a s jasnejším prechodom na dopyt.
+              Pozrite si vybrané projekty, pri ktorých sme riešili komfortné chladenie, technológiu aj následný servis.
             </p>
             <Link href="/references" className="focus-ring mt-7 inline-flex items-center gap-2 rounded-md bg-white px-5 py-3 font-bold text-hvac-navy">
               Všetky referencie
@@ -211,9 +210,9 @@ export default function HomePage() {
         <div className="container-x flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Cenová ponuka</p>
-            <h2 className="text-4xl font-bold text-ink">Kalkulačka je pripravená na finálne vzorce</h2>
+            <h2 className="text-4xl font-bold text-ink">Zistite vhodný výkon a pošlite nám dopyt</h2>
             <p className="mt-3 max-w-2xl text-base leading-7 text-graphite">
-              Kým nebudú ceny a vzorce potvrdené, používa orientačný výpočet výkonu a zbiera dopyt.
+              Orientačný výpočet vám pomôže vybrať smer. Finálnu zostavu a montáž overíme podľa priestoru a požiadaviek.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">

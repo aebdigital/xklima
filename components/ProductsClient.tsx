@@ -59,7 +59,7 @@ export function ProductsClient({ initialCategory = "" }: ProductsClientProps) {
           <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Katalóg produktov</p>
           <h1 className="max-w-3xl text-4xl font-bold text-ink md:text-5xl">Klimatizácie a HVAC produkty na dopyt</h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-graphite">
-            Nie je to e-shop. Produkty sa filtrujú podľa výkonu, značky a m2, no odoslanie ide ako dopyt na návrh montáže.
+            Porovnajte modely podľa výkonu, značky a odporúčanej plochy. Vybraný variant odošlite ako nezáväzný dopyt.
           </p>
         </div>
         <a

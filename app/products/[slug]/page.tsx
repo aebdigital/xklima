@@ -89,9 +89,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Technické údaje</p>
-            <h2 className="text-3xl font-bold text-ink md:text-4xl">Prehľad pred obhliadkou</h2>
+            <h2 className="text-3xl font-bold text-ink md:text-4xl">Technický prehľad</h2>
             <p className="mt-4 text-base leading-7 text-graphite">
-              Údaje sú pripravené pre CMS. Administrátor môže dopĺňať ďalšie parametre, PDF aj fotografie s vodoznakom.
+              Základné parametre pomôžu pri rýchlom porovnaní modelov. Presné dimenzovanie overíme podľa priestoru.
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
@@ -109,7 +109,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div className="container-x grid gap-8 lg:grid-cols-2">
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Výhody</p>
-            <h2 className="text-3xl font-bold text-ink md:text-4xl">Prečo zaradiť do ponuky</h2>
+            <h2 className="text-3xl font-bold text-ink md:text-4xl">Prečo zvoliť tento model</h2>
           </div>
           <div className="grid gap-3">
             {product.highlights.map((highlight) => (
@@ -126,7 +126,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-hvac-green">Podobné produkty</p>
-            <h2 className="text-3xl font-bold text-ink md:text-4xl">Automaticky z kategórie {product.category}</h2>
+            <h2 className="text-3xl font-bold text-ink md:text-4xl">Ďalšie riešenia z kategórie {product.category}</h2>
           </div>
           <Link href="/products" className="focus-ring inline-flex items-center gap-2 rounded-md border border-line bg-white px-4 py-3 font-bold text-ink">
             Všetky produkty

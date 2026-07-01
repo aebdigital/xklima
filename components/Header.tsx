@@ -170,7 +170,7 @@ export function Header() {
               ))}
               {results.length === 0 ? (
                 <div className="rounded-md bg-frost px-4 py-5 text-sm font-semibold text-graphite">
-                  Nič som nenašiel. Skúste značku, výkon alebo typ služby.
+                  Nenašli sa žiadne výsledky. Skúste značku, výkon alebo typ služby.
                 </div>
               ) : null}
             </div>

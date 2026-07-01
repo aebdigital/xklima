@@ -6,7 +6,7 @@ import { Header } from "@/components/Header";
 export const metadata: Metadata = {
   title: "X-Klima Slovakia | Klimatizácie a HVAC riešenia",
   description:
-    "Svetlý HVAC web pre X-Klima Slovakia: klimatizácie, referencie, montáž, servis, produkty, downloads a kalkulačka."
+    "Klimatizácie, chladenie, vzduchotechnika, tepelné čerpadlá, montáž a servis pre domácnosti aj firmy."
 };
 
 export default function RootLayout({
